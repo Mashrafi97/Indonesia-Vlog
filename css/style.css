@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+ul{
+    list-style: none;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+
+/* nav part st */
+nav{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+}
+.container{
+    width: 1320px;
+    margin: 0 auto;
+}
+.main_nav{
+    display: flex;
+    justify-content: space-between;
+    height: 60px;
+    align-items: center;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li a{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 30px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.menu ul li:first-child a{
+    color: #222;
+}
+.menu ul li a:hover{
+    color: #222;
+}
+/* nav part end */
+
+/* banner part st */
+#banner{
+    background: url(../images/banner.jpg) no-repeat center / cover;
+    padding: 462px 0;
+}
+.banner_text p{
+    color: #FFC178;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 7px;
+    padding-bottom: 37.78px;
+    text-transform: uppercase;
+}
+.banner_text h1{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 96px;
+    font-weight: 700;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+.banner_text h2{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 88px;
+    font-weight: 400;
+    line-height: 100px;
+    text-transform: capitalize;
+}
+/* banner part end */
+
+/* about part st */
+#about{
+    background-color: #000;
+}
+.about_main{
+    padding: 301px 0 358px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.about_text{
+    padding-left: 139px;
+}
+.about_text h4{
+    padding-top: 45px;
+    color: #FBD784;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.about_text h2{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.about_text p{
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.about_text a{
+    margin-top: 66px;
+    color: #FBD784;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* about part end */
+
+/* bromo part st */
+#bromo{
+    background-color: #000;
+}
+.bromo_main{
+    background: url(../images/bromo.jpg) no-repeat center / cover;
+    padding: 559px 0 32.92px 0;
+    text-align: center;
+}
+.bromo_text h4{
+    color: #FBD784;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.bromo_text h3{
+    width: 932px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bromo_text p{
+    width: 893px;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.bromo_text a{
+    margin-top: 26px;
+    color: #FBD784;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* bromo part end */
+/* culture part start */
+#culture{
+    background-color: #000;
+}
+.culture_main{
+    padding: 295.08px 0 205px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.culture_text h4{
+    padding-top: 153px;
+    padding-bottom: 19px;
+    color: #FBD784;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+}
+.culture_text h2{
+    width: 663px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.culture_text p{
+    padding: 19px 0 47px 0;
+    width: 663px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    text-transform: uppercase;
+}
+.culture_text a{
+    color: #FBD784;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+/* culture part end */
+
+/* footer part st */
+footer{
+    background-color: #000;
+    height: 580px;
+}
+.footer_top{
+    display: flex;
+    justify-content: space-between;
+}
+.text span{
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+.text a{
+    padding: 18px 67px;
+    background-color: #FFA343;
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: capitalize;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.icon h3{
+    padding: 82px 0 49px 0;
+    width: 405px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+    text-transform: capitalize;
+}
+.icon p{
+    padding-bottom: 34px;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.205px;
+    text-transform: capitalize;
+}
+.footer_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.footer_menu ul li a{
+    color: #FFF;
+font-family: Open Sans;
+font-size: 19px;
+font-style: normal;
+font-weight: 400;
+line-height: 0px; /* 0% */
+letter-spacing: -0.205px;
+text-transform: capitalize;
+
+}
+.footer_menu ul{
+    padding-top: 90px;
+    line-height: 40px;
+}
+.footer_menu p{
+    color: #FFD1A0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.232px;
+    text-transform: capitalize;
+}
+.copyright p{
+    padding-top: 100px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    opacity: 0.5;
+}
+/* footer part end */
